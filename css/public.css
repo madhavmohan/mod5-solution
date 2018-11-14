@@ -166,6 +166,12 @@ h3.menu-item-title {
 }
 
 
+/*******signup page ***/
+
+.formclass{
+  color:black;
+}
+
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
   /* Home page */

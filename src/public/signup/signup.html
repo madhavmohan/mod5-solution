@@ -1,0 +1,20 @@
+<div class="container">
+
+  <form name="formName" class="formclass" novalidate >
+
+    Username:<input type="text" name="username" value="" ng-model='signupctrl.username' ng-blur="signupctrl.setService()" required minlength="4" >
+
+    itemno:<input type="text" name="" value="" ng-model='signupctrl.itemno' ng-blur="signupctrl.setService()">
+
+
+    phno:<input type="text" name="" value="" ng-model='signupctrl.phno' ng-blur="signupctrl.setService()">
+
+<span ng-if="(formName.username.$error.minlength||formName.username.$error.required) && formName.username.$touched">username is required and min of 4 characters</span>
+
+
+
+
+  </form>
+
+
+</div>
